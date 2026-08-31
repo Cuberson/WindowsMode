@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+  <key>CFBundleIdentifier</key><string>ai.conductor.app</string>
+  <key>CFBundleName</key><string>Conductor</string>
+  <key>CFBundleDisplayName</key><string>Conductor</string>
+  <key>CFBundleExecutable</key><string>Conductor</string>
+  <key>CFBundlePackageType</key><string>APPL</string>
+  <key>CFBundleShortVersionString</key><string>0.1</string>
+  <key>CFBundleVersion</key><string>1</string>
+  <key>LSMinimumSystemVersion</key><string>15.0</string>
+  <key>LSUIElement</key><true/>
+  <key>NSHighResolutionCapable</key><true/>
+  <key>NSMicrophoneUsageDescription</key><string>Conductor listens while you hold the push-to-talk chord.</string>
+  <key>NSSpeechRecognitionUsageDescription</key><string>Conductor transcribes your request on-device.</string>
+  <key>CFBundleURLTypes</key><array><dict>
+    <key>CFBundleURLName</key><string>ai.conductor.app</string>
+    <key>CFBundleURLSchemes</key><array><string>conductor</string></array>
+  </dict></array>
+  <key>NSAppleEventsUsageDescription</key><string>Conductor opens projects in Terminal.</string>
+</dict></plist>
