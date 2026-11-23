@@ -1,0 +1,18 @@
+# Conductor runtime dependencies — Windows 10/11, Python 3.11+
+PySide6>=6.6
+requests>=2.31
+keyring>=24
+numpy>=1.26
+sounddevice>=0.4.6
+soundfile>=0.12
+pyttsx3>=2.90
+
+# On-device speech recognition: Windows.Media.SpeechRecognition (WinRT)
+winsdk>=1.0.0b8; sys_platform == 'win32'
+
+# Optional offline STT backend (also download a Vosk model into
+# %LOCALAPPDATA%\Conductor\vosk-model or set VOSK_MODEL_PATH):
+# vosk>=0.3.45
+
+# Build-time only (scripts/build-exe.ps1):
+# pyinstaller>=6.0
