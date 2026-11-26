@@ -1,17 +1,24 @@
 # Build artifacts
 .build/
 build/
+dist/
 *.o
 *.dSYM
+*.spec
 
-# macOS
-.DS_Store
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
 
-# Xcode / SwiftPM local state
-.swiftpm/
-xcuserdata/
-DerivedData/
+# Windows
+Thumbs.db
+Desktop.ini
 
-# Local env / secrets (never commit keys — the app stores them in Keychain)
+# Local env / secrets (never commit keys — the app stores them in the
+# Windows Credential Manager)
 .env
 *.key
